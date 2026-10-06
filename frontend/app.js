@@ -41,7 +41,7 @@ $("add").addEventListener("submit", async (e) => {
     }
     $("title").value = "";
     await load();
-  } catch {
+   } catch {
     $("status").textContent = "Could not reach the backend.";
   }
 });
